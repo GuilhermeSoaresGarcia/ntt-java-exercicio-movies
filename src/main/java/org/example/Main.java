@@ -152,6 +152,8 @@ public class Main {
             isValid = confirmation.equals("n");
         } while (!isValid);
 
+        input.close();
+
         MovieInfo movie = new MovieInfo(
                 movieName,
                 releaseYear,
