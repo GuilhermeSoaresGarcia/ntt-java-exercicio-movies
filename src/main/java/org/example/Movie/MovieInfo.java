@@ -21,4 +21,36 @@ public class MovieInfo extends Movie {
         this.startShooting = startShooting;
         this.endShooting = endShooting;
     }
+
+    public String getRecordAt() {
+        return recordAt;
+    }
+
+    public void setRecordAt(String recordAt) {
+        this.recordAt = recordAt;
+    }
+
+    public Integer getMovieLength() {
+        return movieLength;
+    }
+
+    public void setMovieLength(Integer movieLength) {
+        this.movieLength = movieLength;
+    }
+
+    public LocalDate getStartShooting() {
+        return startShooting;
+    }
+
+    public void setStartShooting(LocalDate startShooting) {
+        this.startShooting = startShooting;
+    }
+
+    public LocalDate getEndShooting() {
+        return endShooting;
+    }
+
+    public void setEndShooting(LocalDate endShooting) {
+        this.endShooting = endShooting;
+    }
 }
